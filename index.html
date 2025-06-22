@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produto Tech</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ProdutoTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="bg-primary text-white text-center py-5 mt-5">
+        <div class="container">
+            <h1 class="display-4" data-aos="fade-down">Conheça o ProdutoTech</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">A solução digital perfeita para transformar seu
+                negócio</p>
+
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h2>Sobre o Produto</h2>
+                    <p>O ProdutoTech é uma plataforma inovadora desenvolvida para facilitar a gestão de pequenas
+                        empresas através de tecnologia de ponta e design intuitivo.</p>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="download.jpg" class="img-fluid rounded" alt="Imagem do Produto">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Funcionalidades -->
+    <section id="funcionalidades" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Funcionalidades</h2>
+            <div class="row text-center">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <i class="bi bi-speedometer2 display-4 text-primary"></i>
+                    <h5>Rápido e Eficiente</h5>
+                    <p>Operações otimizadas para economizar seu tempo e aumentar produtividade.</p>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <i class="bi bi-shield-lock display-4 text-primary"></i>
+                    <h5>Seguro</h5>
+                    <p>Seus dados protegidos com tecnologia de criptografia avançada.</p>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <i class="bi bi-phone display-4 text-primary"></i>
+                    <h5>100% Responsivo</h5>
+                    <p>Compatível com todos os dispositivos, de desktops a smartphones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">O que dizem nossos clientes</h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Simplesmente revolucionário! Minha empresa nunca funcionou tão bem."
+                            </p>
+                            <h5 class="card-title">João Silva</h5>
+                            <p class="card-subtitle text-muted">Empresário</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Minha empresa tem tido muito mais resultados."</p>
+                            <h5 class="card-title">Marcos Dias</h5>
+                            <p class="card-subtitle text-muted">Empreendedor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Muito satisfeita com o trabalho, grandes resultados acontecendo."</p>
+                            <h5 class="card-title">Marina Gonçalves</h5>
+                            <p class="card-subtitle text-muted">Empresário</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Entre em contato</h2>
+            <form id="formContato" class="row g-3" data-aos="fade-up">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Seu nome" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="4" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2025 ProdutoTech. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+/* Reset e ajustes iniciais */
+body {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* Hero */
+header {
+  background: linear-gradient(135deg, #0d6efd, #0056b3);
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Funcionalidades */
+#funcionalidades i {
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+#funcionalidades i:hover {
+  transform: scale(1.2);
+}
+
+/* Depoimentos */
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Formulário */
+form input,
+form textarea {
+  border-radius: 10px;
+}
+
+form button {
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #004a99;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Responsivo extra */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
